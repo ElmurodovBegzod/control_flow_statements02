@@ -7,6 +7,18 @@ Args:
 Returns:
     int: return answer. 
 */
+int func(int first, second) {
+  if (first == second) {
+    return 0;
+  }
+  if (first != second) {
+    if (first > second) {
+      return first;
+    }
+  }
+  return second;
+}
 
 void main() {
+  print(func(77, 7));
 }
